@@ -3,6 +3,8 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import  Container  from 'react-bootstrap/Container';
 import { useState, useEffect } from 'react';
+import '../css/Home.css'
+
 
 export default function Home() {
     const [blogs, setBlogs] = useState([]);
