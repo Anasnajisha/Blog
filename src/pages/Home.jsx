@@ -25,8 +25,11 @@ export default function Home() {
         };
   return (
     <div>
+                <h1 className="head" style={{ color: 'green', textAlign: 'center' }}>Blogs</h1>
 
-        <Container className ="my-5 bg-lightgreen ">
+        <Container>
+       
+
         {blogs.map((blog, i) => {
           return (
             <Card key={i} className="card">
@@ -35,7 +38,7 @@ export default function Home() {
               <hr />
                 <Card.Title>{blog.title}</Card.Title>
                 <Card.Text>{blog.body}</Card.Text>
-                <Button style={{backgroundColor: 'black', color: 'white'}}>Read more details</Button>
+                <Button style={{backgroundColor: 'red', color: 'white'}}>Read more details</Button>
               </Card.Body>
             </Card>
           );

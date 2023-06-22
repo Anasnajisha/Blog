@@ -29,7 +29,7 @@ export default function Blogform() {
             <Form.Check type="checkbox" label="I agree to Terms and Conditions" />
           </Form.Group>
     
-      <Button variant="danger" type="submit">Submit</Button>
+      <Button variant="danger"  size="lg" type="submit">ADD</Button>
         
         </Form>
       </Container>
